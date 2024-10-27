@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="NavBar">
+        <nav>
+            <div class="left">
+                <img class="icon" src="img/icon4.png" alt="icon">
+            </div>
+            <div class="right">
+            <ul>
+                <li><a href="#" class="navlink" id="WorkLink">Work</a></li>
+                <li><a href="#" class="navlink" id="AboutLink">About</a></li>
+                <li><a href="#" class="navlink" id="ServicesLink">Services</a></li>
+                <li><a href="index.html" class="navlink" id="IdeasLink">Ideas</a></li>
+                <li><a href="#" class="navlink" id="CareerLink">Careers</a></li>
+                <li><a href="#" class="navlink" id="ContactLink">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h1>Ideas</h1>
+            <p>Where All our great things begin</p>
+        </div>
+        <div class="area"></div>
+    </section>
+    <div class="filter">
+        <label for="sort">Sort by: </label>
+        <select name="sort" id="sort">
+            <option value="Newest">Newest</option>
+            <option value="Oldest">Oldest</option>
+        </select>
+
+        <label for="itemperpage">Show per page: </label>
+        <select name="itmperpage" id="itemperpage">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+        </select>
+    </div>
+
+    <div class="listpost" id="postlist"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
